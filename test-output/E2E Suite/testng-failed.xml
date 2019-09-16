@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E2E Suite]">
+  <test name="CF orders(failed)">
+    <classes>
+      <class name="com.test.automation.OM_Automation.E2E_orders.TC_02_Install_CF_with_100Mbits">
+        <methods>
+          <include name="NewLeadCreation" invocation-numbers="0"/>
+          <include name="CF_ProductBasketConfiguration_with_100Mbits"/>
+          <include name="verifylogin" invocation-numbers="0"/>
+          <include name="AddressValidation"/>
+          <include name="CF_SubOrders_Validation_And_Closure"/>
+          <include name="CF_ProductBasketAddition"/>
+          <include name="CF_Billing_Account_Assignment"/>
+          <include name="CF_Product_Basket_Upload"/>
+          <include name="CF_Validate_Order"/>
+          <include name="beforeMethod"/>
+          <include name="Opportunityconversion"/>
+          <include name="CF_Installation_Information_Configuration"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.automation.OM_Automation.E2E_orders.TC_02_Install_CF_with_100Mbits -->
+      <class name="com.test.automation.OM_Automation.E2E_orders.TC_01_Install_CF_with_50Mbits_">
+        <methods>
+          <include name="Opportunityconversion"/>
+          <include name="CF_Product_Basket_Upload"/>
+          <include name="CF_Validate_Order"/>
+          <include name="CF_Installation_Information_Configuration"/>
+          <include name="CF_ProductBasketAddition"/>
+          <include name="setUp"/>
+          <include name="CF_Billing_Account_Assignment"/>
+          <include name="CF_ProductBasketConfiguration_with_50Mbits"/>
+          <include name="NewLeadCreation" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="CF_SubOrders_Validation_And_Closure"/>
+          <include name="AddressValidation"/>
+        </methods>
+      </class> <!-- com.test.automation.OM_Automation.E2E_orders.TC_01_Install_CF_with_50Mbits_ -->
+      <class name="com.test.automation.OM_Automation.E2E_orders.TC_03_Install_CF_with_200Mbits">
+        <methods>
+          <include name="Opportunityconversion"/>
+          <include name="CF_ProductBasketConfiguration_with_200Mbits"/>
+          <include name="CF_Product_Basket_Upload"/>
+          <include name="CF_Installation_Information_Configuration"/>
+          <include name="CF_ProductBasketAddition"/>
+          <include name="CF_Validate_Order"/>
+          <include name="CF_Billing_Account_Assignment"/>
+          <include name="CF_SubOrders_Validation_And_Closure"/>
+          <include name="verifylogin" invocation-numbers="0"/>
+          <include name="AddressValidation"/>
+          <include name="NewLeadCreation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.automation.OM_Automation.E2E_orders.TC_03_Install_CF_with_200Mbits -->
+    </classes>
+  </test> <!-- CF orders(failed) -->
+</suite> <!-- Failed suite [E2E Suite] -->

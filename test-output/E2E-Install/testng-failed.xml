@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [E2E-Install]">
+  <test name="CF-Install-Orders0(failed)">
+    <classes>
+      <class name="CF_Install_Orders.TC_17_Install_CF_with_10Gbits">
+        <methods>
+          <include name="TC_17_CF_SubOrders_Validation_And_Closure"/>
+          <include name="beforeMethod"/>
+          <include name="TC_17_verifylogin" invocation-numbers="1"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="testEnd"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- CF_Install_Orders.TC_17_Install_CF_with_10Gbits -->
+      <class name="CV_Install_Orders.TC_18_CV_Install_order">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CV_Install_Orders.TC_18_CV_Install_order -->
+      <class name="OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50">
+        <methods>
+          <include name="testEnd"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50 -->
+    </classes>
+  </test> <!-- CF-Install-Orders0(failed) -->
+  <test name="OIP-Install-Orders3(failed)">
+    <classes>
+      <class name="CF_Install_Orders.TC_17_Install_CF_with_10Gbits">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="testEnd"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- CF_Install_Orders.TC_17_Install_CF_with_10Gbits -->
+      <class name="CV_Install_Orders.TC_18_CV_Install_order">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CV_Install_Orders.TC_18_CV_Install_order -->
+      <class name="OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50">
+        <methods>
+          <include name="testEnd"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="TC_23_OI_Phone_Installation_Information_Configuration"/>
+          <include name="endTest"/>
+          <include name="TC_23_OI_Phone_SubOrders_Validation_And_Closure"/>
+          <include name="TC_23_verifylogin" invocation-numbers="1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50 -->
+    </classes>
+  </test> <!-- OIP-Install-Orders3(failed) -->
+  <test name="CV-Install-Orders4(failed)">
+    <classes>
+      <class name="CF_Install_Orders.TC_17_Install_CF_with_10Gbits">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="testEnd"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- CF_Install_Orders.TC_17_Install_CF_with_10Gbits -->
+      <class name="CV_Install_Orders.TC_18_CV_Install_order">
+        <methods>
+          <include name="TC_18_ProductBasketAddition_CF"/>
+          <include name="TC_18_Product_Basket_Upload"/>
+          <include name="TC_18_verifylogin" invocation-numbers="1"/>
+          <include name="TC_18_ProductBasketConfiguration_CV"/>
+          <include name="TC_18_CF_SubOrders_Validation_And_Closure"/>
+          <include name="TC_18_Billing_Account_Assignment"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="TC_18_ProductBasketAddition_CV"/>
+          <include name="TC_18_CF_Validate_Order"/>
+          <include name="beforeMethod"/>
+          <include name="TC_18_Installation_Information_Configuration"/>
+          <include name="TC_18_ProductBasketConfiguration_CF"/>
+        </methods>
+      </class> <!-- CV_Install_Orders.TC_18_CV_Install_order -->
+      <class name="OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50">
+        <methods>
+          <include name="testEnd"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50 -->
+    </classes>
+  </test> <!-- CV-Install-Orders4(failed) -->
+</suite> <!-- Failed suite [E2E-Install] -->

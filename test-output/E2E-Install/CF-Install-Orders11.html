@@ -1,0 +1,285 @@
+<html>
+<head>
+<title>TestNG:  CF-Install-Orders11</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CF-Install-Orders11</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 12 09:49:44 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1181 seconds (1181697 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_AddressValidation()'><b>TC_14_AddressValidation</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-1742719968" onClick='toggleBox("Output-1742719968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1742719968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1742719968">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_Billing_Account_Assignment()'><b>TC_14_CF_Billing_Account_Assignment</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-359434207" onClick='toggleBox("Output-359434207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-359434207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-359434207">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (66ed19cf2fee9dac38d0ef956b8acb24)] -> xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir8292_6007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 66ed19cf2fee9dac38d0ef956b8acb24<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_Installation_Information_Configuration()'><b>TC_14_CF_Installation_Information_Configuration</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-913843392" onClick='toggleBox("Output-913843392", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-913843392" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-913843392">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (66ed19cf2fee9dac38d0ef956b8acb24)] -> xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir8292_6007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 66ed19cf2fee9dac38d0ef956b8acb24<br/>
+</div>
+</td>
+<td></td>
+<td>203</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_ProductBasketAddition()'><b>TC_14_CF_ProductBasketAddition</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-162484074" onClick='toggleBox("Output-162484074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-162484074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-162484074">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+CF product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_ProductBasketConfiguration_with_7Gbits()'><b>TC_14_CF_ProductBasketConfiguration_with_7Gbits</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-864390329" onClick='toggleBox("Output-864390329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864390329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864390329">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Company fiber Product selected<br/>
+Product description as [[ChromeDriver: chrome on XP (66ed19cf2fee9dac38d0ef956b8acb24)] -> xpath: .//*[@id='Allgemeine_Informationen:Product_Description_0'][contains(text(), 'Company Fiber')]] value loaded<br/>
+Monthly charges value as 200 entered<br/>
+Upfront fee chargees value as 100 entered<br/>
+upload speed value as 7Gbit/s selected<br/>
+Hardware selection element clicked<br/>
+Hardware to be successfully selected<br/>
+parent window switched<br/>
+CF Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_Product_Basket_Upload()'><b>TC_14_CF_Product_Basket_Upload</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-1079851772" onClick='toggleBox("Output-1079851772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1079851772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1079851772">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (66ed19cf2fee9dac38d0ef956b8acb24)] -> xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir8292_6007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 66ed19cf2fee9dac38d0ef956b8acb24<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_SubOrders_Validation_And_Closure()'><b>TC_14_CF_SubOrders_Validation_And_Closure</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-724080237" onClick='toggleBox("Output-724080237", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724080237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724080237">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir8292_6007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 66ed19cf2fee9dac38d0ef956b8acb24<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_CF_Validate_Order()'><b>TC_14_CF_Validate_Order</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-480100372" onClick='toggleBox("Output-480100372", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-480100372" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-480100372">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir8292_6007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 66ed19cf2fee9dac38d0ef956b8acb24<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_NewLeadCreation()'><b>TC_14_NewLeadCreation</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-1310181040" onClick='toggleBox("Output-1310181040", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1310181040" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1310181040">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_Opportunityconversion()'><b>TC_14_Opportunityconversion</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br/>
+<a href="#Output-529819885" onClick='toggleBox("Output-529819885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-529819885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-529819885">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_14_Install_CF_with_7Gbits.TC_14_verifylogin()'><b>TC_14_verifylogin</b><br>Test class: CF_Install_Orders.TC_14_Install_CF_with_7Gbits<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-1781800683" onClick='toggleBox("Output-1781800683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1781800683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1781800683">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (66ed19cf2fee9dac38d0ef956b8acb24)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (66ed19cf2fee9dac38d0ef956b8acb24)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_09_50_31.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_09_50_31.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CF_Install_Orders.TC_14_Install_CF_with_7Gbits@78b1cc93</td></tr>
+</table><p>
+</body>
+</html>

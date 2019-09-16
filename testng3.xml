@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Suite" parallel="tests">
+ <test name="Test1">
+    <classes>
+      <class name="CF_Install_Orders.TC_01_Install_CF_with_50Mbits_"/>     
+     </classes>
+   </test>
+   <test name="Test2">
+     <classes>
+	    <class name="CF_Install_Orders.TC_02_Install_CF_with_100Mbits"/>
+      </classes> 
+   </test>
+   <test name="Test3"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_03_Install_CF_with_200Mbits"/>
+    </classes>    
+  </test>
+     <test name="Test4"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_04_Install_CF_with_300Mbits"/>
+    </classes>    
+  </test> 
+     <test name="Test5"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_05_Install_CF_with_500Mbits"/>
+    </classes>    
+  </test>
+       <test name="Test6"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_06_Install_CF_with_750Mbits"/>
+    </classes>    
+    </test>
+ <test name="Test7">
+    <classes>
+      <class name="CF_Install_Orders.TC_07_Install_CF_with_1Gbits"/>     
+     </classes>
+   </test>
+   <test name="Test8">
+     <classes>
+	    <class name="CF_Install_Orders.TC_08_Install_CF_with_2Gbits"/>
+      </classes> 
+   </test>
+   <test name="Test9"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_09_Install_CF_with_2_5Gbits"/>
+    </classes>    
+  </test>
+     <test name="Test10"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_10_Install_CF_with_3Gbits"/>
+    </classes>    
+  </test>    
+     <test name="Test11"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_11_Install_CF_with_4Gbits"/>
+    </classes>    
+  </test>
+       <test name="Test12"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_12_Install_CF_with_5Gbits"/>
+    </classes> 
+   </test>  
+      <test name="Test13"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_13_Install_CF_with_6Gbits"/>
+    </classes>    
+  </test>         
+         <test name="Test14"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_14_Install_CF_with_7Gbits"/>
+    </classes>    
+  </test>
+        <test name="Test15"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_15_Install_CF_with_8Gbits"/>
+    </classes>    
+  </test> 
+       <test name="Test16"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_16_Install_CF_with_9Gbits"/>
+    </classes>    
+  </test>
+         <test name="Test17"> 
+    <classes>  
+     <class name="CF_Install_Orders.TC_17_Install_CF_with_10Gbits"/>
+    </classes>    
+  </test>  
+    <test name="Test18"> 
+    <classes>  
+     <class name="CV_Install_Orders.TC_18_CV_Install_order"/>
+    </classes>    
+  </test>
+      <test name="Test19"> 
+    <classes>  
+                 <class name="OI_Install_Orders.TC_19_Install_OI_with_OI_50"/>
+    </classes>    
+  </test>   
+    <test name="Test20"> 
+    <classes>  
+                 <class name="OI_Install_Orders.TC_20_Install_OI_with_OI_150"/>
+    </classes>    
+  </test>     
+    <test name="Test21"> 
+    <classes>  
+              <class name="OI_Install_Orders.TC_21_Install_OI_with_OI_200"/>
+    </classes>    
+  </test>   
+    <test name="Test22"> 
+    <classes>  
+              <class name="OI_Install_Orders.TC_22_Install_OI_with_OI_400"/>
+    </classes>    
+</test>       
+    <test name="Test23"> 
+    <classes>  
+           <class name="OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50"/>
+    </classes>    
+  </test>   
+    <test name="Test24"> 
+    <classes>  
+           <class name="OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150"/>
+    </classes>    
+  </test>     
+    <test name="Test25"> 
+    <classes>  
+        <class name="OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200"/>
+    </classes>    
+  </test>   
+    <test name="Test26"> 
+    <classes>  
+        <class name="OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400"/>
+    </classes>    
+  </test>       
+   <!-- Test -->
+</suite> <!-- Suite --> 

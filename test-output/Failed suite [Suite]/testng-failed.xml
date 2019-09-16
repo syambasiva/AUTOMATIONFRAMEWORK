@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test name="MACDUpgrade_CI_CF(failed)(failed)" parallel="tests">
+    <parameter name="TestName" value="MACDUpgrade_CI_CF"/>
+    <classes>
+      <class name="TestDriver.TestExecutionDriver">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="cleanupSuite"/>
+          <include name="TestCaseExecution" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="testEnd"/>
+        </methods>
+      </class> <!-- TestDriver.TestExecutionDriver -->
+    </classes>
+  </test> <!-- MACDUpgrade_CI_CF(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

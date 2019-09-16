@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.test.automation.OM_Automation.E2E_orders.SC_01_CF_product">
+        <methods>
+          <include name="ProductBasketConfiguration"/>
+          <include name="setUp"/>
+          <include name="NewLeadCreation" invocation-numbers="0"/>
+          <include name="ProductBasketAddition"/>
+          <include name="beforeMethod"/>
+          <include name="Opportunityconversion"/>
+          <include name="AddressValidation"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.OM_Automation.E2E_orders.SC_01_CF_product -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

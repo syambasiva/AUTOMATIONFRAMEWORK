@@ -1,0 +1,903 @@
+<html>
+<head>
+<title>TestNG:  OI with phone-Install-Orders</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>OI with phone-Install-Orders</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 12 03:31:50 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>5294 seconds (5294838 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_AddressValidation()'><b>TC_23_AddressValidation</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-67730604" onClick='toggleBox("Output-67730604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-67730604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-67730604">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_NewLeadCreation()'><b>TC_23_NewLeadCreation</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-69673470" onClick='toggleBox("Output-69673470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-69673470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-69673470">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_Billing_Account_Assignment()'><b>TC_23_OI_Phone_Billing_Account_Assignment</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-251004688" onClick='toggleBox("Output-251004688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-251004688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-251004688">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13052_27428}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a84f5bbf4cab5b76f4cd21527c5f3842<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_Installation_Information_Configuration()'><b>TC_23_OI_Phone_Installation_Information_Configuration</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-703440120" onClick='toggleBox("Output-703440120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-703440120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-703440120">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13052_27428}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a84f5bbf4cab5b76f4cd21527c5f3842<br/>
+</div>
+</td>
+<td></td>
+<td>203</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_ProductBasketAddition()'><b>TC_23_OI_Phone_ProductBasketAddition</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-1739267143" onClick='toggleBox("Output-1739267143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1739267143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1739267143">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+OI product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_ProductBasketConfiguration_with_OI50()'><b>TC_23_OI_Phone_ProductBasketConfiguration_with_OI50</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-288797801" onClick='toggleBox("Output-288797801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288797801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288797801">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Office Internet withOI 50 Product selected<br/>
+Phone add button clicked<br/>
+Error occurs during product basket configuration is org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (a84f5bbf4cab5b76f4cd21527c5f3842)] -> xpath: .//*[@id='j_id0:j_id2:0:j_id3:0:j_id6:1:j_id8:0:j_id15']/div/div[2]/label/span/span[2]] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13052_27428}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a84f5bbf4cab5b76f4cd21527c5f3842<br/>
+OI and phone Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>222</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_Product_Basket_Upload()'><b>TC_23_OI_Phone_Product_Basket_Upload</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-1159329398" onClick='toggleBox("Output-1159329398", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1159329398" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1159329398">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13052_27428}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a84f5bbf4cab5b76f4cd21527c5f3842<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_SubOrders_Validation_And_Closure()'><b>TC_23_OI_Phone_SubOrders_Validation_And_Closure</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-1057262726" onClick='toggleBox("Output-1057262726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1057262726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1057262726">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13052_27428}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a84f5bbf4cab5b76f4cd21527c5f3842<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_OI_Phone_Validate_Order()'><b>TC_23_OI_Phone_Validate_Order</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-332405156" onClick='toggleBox("Output-332405156", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-332405156" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-332405156">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13052_27428}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a84f5bbf4cab5b76f4cd21527c5f3842<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_Opportunityconversion()'><b>TC_23_Opportunityconversion</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br/>
+<a href="#Output-1756207614" onClick='toggleBox("Output-1756207614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1756207614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1756207614">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50.TC_23_verifylogin()'><b>TC_23_verifylogin</b><br>Test class: OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-1574898980" onClick='toggleBox("Output-1574898980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574898980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574898980">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (a84f5bbf4cab5b76f4cd21527c5f3842)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (a84f5bbf4cab5b76f4cd21527c5f3842)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_49.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_49.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>OI_And_Phone_Install_Orders.TC_23_Install_OI_with_P_50@161b062a</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_AddressValidation()'><b>TC_24_AddressValidation</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-1291367132" onClick='toggleBox("Output-1291367132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1291367132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1291367132">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_NewLeadCreation()'><b>TC_24_NewLeadCreation</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-771105389" onClick='toggleBox("Output-771105389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-771105389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-771105389">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_Billing_Account_Assignment()'><b>TC_24_OI_Phone_Billing_Account_Assignment</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-2119713755" onClick='toggleBox("Output-2119713755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2119713755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2119713755">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir11136_16362}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b9b03e4d28bf7e405034bb8ec62d39b<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_Installation_Information_Configuration()'><b>TC_24_OI_Phone_Installation_Information_Configuration</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-1373220972" onClick='toggleBox("Output-1373220972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1373220972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1373220972">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir11136_16362}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b9b03e4d28bf7e405034bb8ec62d39b<br/>
+</div>
+</td>
+<td></td>
+<td>203</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_ProductBasketAddition()'><b>TC_24_OI_Phone_ProductBasketAddition</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-443713699" onClick='toggleBox("Output-443713699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443713699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443713699">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+OI product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_ProductBasketConfiguration_with_OI50()'><b>TC_24_OI_Phone_ProductBasketConfiguration_with_OI50</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-1486553742" onClick='toggleBox("Output-1486553742", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1486553742" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1486553742">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Office Internet withOI 50 Product selected<br/>
+Phone add button clicked<br/>
+Error occurs during product basket configuration is org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (2b9b03e4d28bf7e405034bb8ec62d39b)] -> xpath: .//*[@id='j_id0:j_id2:0:j_id3:0:j_id6:1:j_id8:0:j_id15']/div/div[2]/label/span/span[2]] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir11136_16362}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b9b03e4d28bf7e405034bb8ec62d39b<br/>
+OI and phone Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>223</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_Product_Basket_Upload()'><b>TC_24_OI_Phone_Product_Basket_Upload</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-2111669429" onClick='toggleBox("Output-2111669429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2111669429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2111669429">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir11136_16362}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b9b03e4d28bf7e405034bb8ec62d39b<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_SubOrders_Validation_And_Closure()'><b>TC_24_OI_Phone_SubOrders_Validation_And_Closure</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-2097992252" onClick='toggleBox("Output-2097992252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2097992252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097992252">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir11136_16362}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b9b03e4d28bf7e405034bb8ec62d39b<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_OI_Phone_Validate_Order()'><b>TC_24_OI_Phone_Validate_Order</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-465427162" onClick='toggleBox("Output-465427162", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-465427162" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-465427162">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir11136_16362}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b9b03e4d28bf7e405034bb8ec62d39b<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_Opportunityconversion()'><b>TC_24_Opportunityconversion</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br/>
+<a href="#Output-727666004" onClick='toggleBox("Output-727666004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727666004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727666004">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150.TC_24_verifylogin()'><b>TC_24_verifylogin</b><br>Test class: OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-532885071" onClick='toggleBox("Output-532885071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-532885071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-532885071">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (2b9b03e4d28bf7e405034bb8ec62d39b)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (2b9b03e4d28bf7e405034bb8ec62d39b)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_33.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_33.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>OI_And_Phone_Install_Orders.TC_24_Install_OI_with_P_150@50a7bc6e</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_AddressValidation()'><b>TC_25_AddressValidation</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-589363823" onClick='toggleBox("Output-589363823", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589363823" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589363823">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_NewLeadCreation()'><b>TC_25_NewLeadCreation</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-1452442375" onClick='toggleBox("Output-1452442375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1452442375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1452442375">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_Billing_Account_Assignment()'><b>TC_25_OI_Phone_Billing_Account_Assignment</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-1100288091" onClick='toggleBox("Output-1100288091", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1100288091" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1100288091">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13076_25611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8fd27d9d8bbae8f134e00c2760f91994<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_Installation_Information_Configuration()'><b>TC_25_OI_Phone_Installation_Information_Configuration</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-2097989776" onClick='toggleBox("Output-2097989776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2097989776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097989776">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13076_25611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8fd27d9d8bbae8f134e00c2760f91994<br/>
+</div>
+</td>
+<td></td>
+<td>203</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_ProductBasketAddition()'><b>TC_25_OI_Phone_ProductBasketAddition</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-955324150" onClick='toggleBox("Output-955324150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-955324150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-955324150">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+OI product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_ProductBasketConfiguration_with_OI50()'><b>TC_25_OI_Phone_ProductBasketConfiguration_with_OI50</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-1805443519" onClick='toggleBox("Output-1805443519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1805443519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1805443519">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Office Internet withOI 50 Product selected<br/>
+Phone add button clicked<br/>
+Error occurs during product basket configuration is org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (8fd27d9d8bbae8f134e00c2760f91994)] -> xpath: .//*[@id='j_id0:j_id2:0:j_id3:0:j_id6:1:j_id8:0:j_id15']/div/div[2]/label/span/span[2]] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13076_25611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8fd27d9d8bbae8f134e00c2760f91994<br/>
+OI and phone Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>225</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_Product_Basket_Upload()'><b>TC_25_OI_Phone_Product_Basket_Upload</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-1147334625" onClick='toggleBox("Output-1147334625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1147334625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1147334625">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13076_25611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8fd27d9d8bbae8f134e00c2760f91994<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_SubOrders_Validation_And_Closure()'><b>TC_25_OI_Phone_SubOrders_Validation_And_Closure</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-1600869357" onClick='toggleBox("Output-1600869357", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1600869357" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1600869357">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13076_25611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8fd27d9d8bbae8f134e00c2760f91994<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_OI_Phone_Validate_Order()'><b>TC_25_OI_Phone_Validate_Order</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-1083777179" onClick='toggleBox("Output-1083777179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083777179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083777179">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13076_25611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8fd27d9d8bbae8f134e00c2760f91994<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_Opportunityconversion()'><b>TC_25_Opportunityconversion</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br/>
+<a href="#Output-2116511124" onClick='toggleBox("Output-2116511124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2116511124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2116511124">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200.TC_25_verifylogin()'><b>TC_25_verifylogin</b><br>Test class: OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-1200906406" onClick='toggleBox("Output-1200906406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1200906406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1200906406">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (8fd27d9d8bbae8f134e00c2760f91994)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (8fd27d9d8bbae8f134e00c2760f91994)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_05.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_05.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>OI_And_Phone_Install_Orders.TC_25_Install_OI_with_P_200@780cb77</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_AddressValidation()'><b>TC_26_AddressValidation</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-1393828949" onClick='toggleBox("Output-1393828949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1393828949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1393828949">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_NewLeadCreation()'><b>TC_26_NewLeadCreation</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-946802083" onClick='toggleBox("Output-946802083", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-946802083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-946802083">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_Billing_Account_Assignment()'><b>TC_26_OI_Phone_Billing_Account_Assignment</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-1709317347" onClick='toggleBox("Output-1709317347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709317347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709317347">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir20628_8983}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9c4898a8cbdb663ae811ac8d15ce487<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_Installation_Information_Configuration()'><b>TC_26_OI_Phone_Installation_Information_Configuration</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-817944369" onClick='toggleBox("Output-817944369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817944369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817944369">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir20628_8983}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9c4898a8cbdb663ae811ac8d15ce487<br/>
+</div>
+</td>
+<td></td>
+<td>203</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_ProductBasketAddition()'><b>TC_26_OI_Phone_ProductBasketAddition</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-354605216" onClick='toggleBox("Output-354605216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-354605216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-354605216">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+OI product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_ProductBasketConfiguration_with_OI50()'><b>TC_26_OI_Phone_ProductBasketConfiguration_with_OI50</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-1151512955" onClick='toggleBox("Output-1151512955", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1151512955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1151512955">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Office Internet withOI 50 Product selected<br/>
+Phone add button clicked<br/>
+Error occurs during product basket configuration is org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (f9c4898a8cbdb663ae811ac8d15ce487)] -> xpath: .//*[@id='j_id0:j_id2:0:j_id3:0:j_id6:1:j_id8:0:j_id15']/div/div[2]/label/span/span[2]] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir20628_8983}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9c4898a8cbdb663ae811ac8d15ce487<br/>
+OI and phone Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>222</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_Product_Basket_Upload()'><b>TC_26_OI_Phone_Product_Basket_Upload</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-1345648093" onClick='toggleBox("Output-1345648093", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1345648093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1345648093">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir20628_8983}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9c4898a8cbdb663ae811ac8d15ce487<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_SubOrders_Validation_And_Closure()'><b>TC_26_OI_Phone_SubOrders_Validation_And_Closure</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-147077478" onClick='toggleBox("Output-147077478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-147077478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-147077478">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir20628_8983}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9c4898a8cbdb663ae811ac8d15ce487<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_OI_Phone_Validate_Order()'><b>TC_26_OI_Phone_Validate_Order</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-137685382" onClick='toggleBox("Output-137685382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-137685382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-137685382">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir20628_8983}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9c4898a8cbdb663ae811ac8d15ce487<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_Opportunityconversion()'><b>TC_26_Opportunityconversion</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br/>
+<a href="#Output-777341499" onClick='toggleBox("Output-777341499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777341499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777341499">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+<tr>
+<td title='OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400.TC_26_verifylogin()'><b>TC_26_verifylogin</b><br>Test class: OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-2065718717" onClick='toggleBox("Output-2065718717", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2065718717" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2065718717">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (f9c4898a8cbdb663ae811ac8d15ce487)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (f9c4898a8cbdb663ae811ac8d15ce487)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_18.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_03_32_18.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>OI_And_Phone_Install_Orders.TC_26_Install_OI_with_P_400@691a7f8f</td></tr>
+</table><p>
+</body>
+</html>

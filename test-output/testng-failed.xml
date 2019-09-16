@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Regression_TC_61(failed)" parallel="tests">
+    <parameter name="TestName" value="Regression_TC_61"/>
+    <classes>
+      <class name="TestDriver.TestExecutionDriver">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="cleanupSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="TestCaseExecution" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestDriver.TestExecutionDriver -->
+    </classes>
+  </test> <!-- Regression_TC_61(failed) -->
+  <test name="Regression_TC_67_OfficeInternet_MACDTerminate(failed)" parallel="tests">
+    <parameter name="TestName" value="Regression_TC_67_OfficeInternet_MACDTerminate"/>
+    <classes>
+      <class name="TestDriver.TestExecutionDriver">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="testEnd"/>
+          <include name="cleanupSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="TestCaseExecution" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestDriver.TestExecutionDriver -->
+    </classes>
+  </test> <!-- Regression_TC_67_OfficeInternet_MACDTerminate(failed) -->
+</suite> <!-- Failed suite [Suite] -->

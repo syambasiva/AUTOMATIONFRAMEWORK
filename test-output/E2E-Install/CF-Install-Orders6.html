@@ -1,0 +1,849 @@
+<html>
+<head>
+<title>TestNG:  CF-Install-Orders6</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CF-Install-Orders6</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 12 23:42:58 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1148 seconds (1148247 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_Installation_Information_Configuration()'><b>TC_06_CF_Installation_Information_Configuration</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-1650083073" onClick='toggleBox("Output-1650083073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1650083073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1650083073">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir10412_24001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10f5ff4ac65e91ca254f4501ef137182<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  failed
+	at CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_Installation_Information_Configuration(TC_06_Install_CF_with_750Mbits.java:183)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1650083073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1650083073'><pre>java.lang.AssertionError:  failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_Installation_Information_Configuration(TC_06_Install_CF_with_750Mbits.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>203</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_SubOrders_Validation_And_Closure()'><b>TC_06_CF_SubOrders_Validation_And_Closure</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-799315064" onClick='toggleBox("Output-799315064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-799315064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799315064">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir10412_24001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10f5ff4ac65e91ca254f4501ef137182<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  failed
+	at CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_SubOrders_Validation_And_Closure(TC_06_Install_CF_with_750Mbits.java:244)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace799315064", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace799315064'><pre>java.lang.AssertionError:  failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_SubOrders_Validation_And_Closure(TC_06_Install_CF_with_750Mbits.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_Installation_Information_Configuration()'><b>TC_08_CF_Installation_Information_Configuration</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-1549482581" onClick='toggleBox("Output-1549482581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1549482581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1549482581">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13252_20993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 52aa79d5bb62957e6f11fac44f8bac24<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  failed
+	at CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_Installation_Information_Configuration(TC_08_Install_CF_with_2Gbits.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1549482581", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1549482581'><pre>java.lang.AssertionError:  failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_Installation_Information_Configuration(TC_08_Install_CF_with_2Gbits.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>203</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_SubOrders_Validation_And_Closure()'><b>TC_08_CF_SubOrders_Validation_And_Closure</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-1983150485" onClick='toggleBox("Output-1983150485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1983150485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1983150485">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13252_20993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 52aa79d5bb62957e6f11fac44f8bac24<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  failed
+	at CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_SubOrders_Validation_And_Closure(TC_08_Install_CF_with_2Gbits.java:243)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1983150485", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1983150485'><pre>java.lang.AssertionError:  failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_SubOrders_Validation_And_Closure(TC_08_Install_CF_with_2Gbits.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_Installation_Information_Configuration()'><b>TC_12_CF_Installation_Information_Configuration</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-1705381173" onClick='toggleBox("Output-1705381173", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1705381173" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1705381173">
+Error occurs while configuring Installation information due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (97941d4de98f3fffe40406d795409a3b)] -> xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[4]/span] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir6596_1650}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97941d4de98f3fffe40406d795409a3b<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  failed
+	at CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_Installation_Information_Configuration(TC_12_Install_CF_with_5Gbits.java:184)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1705381173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1705381173'><pre>java.lang.AssertionError:  failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_Installation_Information_Configuration(TC_12_Install_CF_with_5Gbits.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>203</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_SubOrders_Validation_And_Closure()'><b>TC_12_CF_SubOrders_Validation_And_Closure</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-587651699" onClick='toggleBox("Output-587651699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-587651699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-587651699">
+Error occurs while Validating Sub-orders due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='opp11_ileinner']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir6596_1650}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97941d4de98f3fffe40406d795409a3b<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  failed
+	at CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_SubOrders_Validation_And_Closure(TC_12_Install_CF_with_5Gbits.java:245)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace587651699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace587651699'><pre>java.lang.AssertionError:  failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_SubOrders_Validation_And_Closure(TC_12_Install_CF_with_5Gbits.java:245)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_AddressValidation()'><b>TC_06_AddressValidation</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-309054794" onClick='toggleBox("Output-309054794", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-309054794" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-309054794">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_Billing_Account_Assignment()'><b>TC_06_CF_Billing_Account_Assignment</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-516279442" onClick='toggleBox("Output-516279442", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-516279442" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-516279442">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir10412_24001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10f5ff4ac65e91ca254f4501ef137182<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_ProductBasketAddition()'><b>TC_06_CF_ProductBasketAddition</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-1283644743" onClick='toggleBox("Output-1283644743", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1283644743" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1283644743">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+CF product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_ProductBasketConfiguration_with_750Mbits()'><b>TC_06_CF_ProductBasketConfiguration_with_750Mbits</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-746619275" onClick='toggleBox("Output-746619275", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-746619275" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-746619275">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Company fiber Product selected<br/>
+Product description as [[ChromeDriver: chrome on XP (10f5ff4ac65e91ca254f4501ef137182)] -> xpath: .//*[@id='Allgemeine_Informationen:Product_Description_0'][contains(text(), 'Company Fiber')]] value loaded<br/>
+Monthly charges value as 200 entered<br/>
+Upfront fee chargees value as 100 entered<br/>
+Error occurs during product basket configuration is org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 389 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir10412_24001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10f5ff4ac65e91ca254f4501ef137182<br/>
+CF Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_Product_Basket_Upload()'><b>TC_06_CF_Product_Basket_Upload</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-1042340249" onClick='toggleBox("Output-1042340249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1042340249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1042340249">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir10412_24001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10f5ff4ac65e91ca254f4501ef137182<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_CF_Validate_Order()'><b>TC_06_CF_Validate_Order</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-214045125" onClick='toggleBox("Output-214045125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-214045125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-214045125">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir10412_24001}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10f5ff4ac65e91ca254f4501ef137182<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_NewLeadCreation()'><b>TC_06_NewLeadCreation</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-394890334" onClick='toggleBox("Output-394890334", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-394890334" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-394890334">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_Opportunityconversion()'><b>TC_06_Opportunityconversion</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br/>
+<a href="#Output-385905366" onClick='toggleBox("Output-385905366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-385905366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-385905366">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_06_Install_CF_with_750Mbits.TC_06_verifylogin()'><b>TC_06_verifylogin</b><br>Test class: CF_Install_Orders.TC_06_Install_CF_with_750Mbits<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-431986565" onClick='toggleBox("Output-431986565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-431986565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-431986565">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (10f5ff4ac65e91ca254f4501ef137182)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (10f5ff4ac65e91ca254f4501ef137182)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_11_43_17.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_11_43_17.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>CF_Install_Orders.TC_06_Install_CF_with_750Mbits@35083305</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_AddressValidation()'><b>TC_08_AddressValidation</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-2059511549" onClick='toggleBox("Output-2059511549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2059511549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2059511549">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_Billing_Account_Assignment()'><b>TC_08_CF_Billing_Account_Assignment</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-391112113" onClick='toggleBox("Output-391112113", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-391112113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-391112113">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13252_20993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 52aa79d5bb62957e6f11fac44f8bac24<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_ProductBasketAddition()'><b>TC_08_CF_ProductBasketAddition</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-91498501" onClick='toggleBox("Output-91498501", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-91498501" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-91498501">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+CF product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_ProductBasketConfiguration_with_2Gbits()'><b>TC_08_CF_ProductBasketConfiguration_with_2Gbits</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-1453516217" onClick='toggleBox("Output-1453516217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453516217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453516217">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Company fiber Product selected<br/>
+Product description as [[ChromeDriver: chrome on XP (52aa79d5bb62957e6f11fac44f8bac24)] -> xpath: .//*[@id='Allgemeine_Informationen:Product_Description_0'][contains(text(), 'Company Fiber')]] value loaded<br/>
+Monthly charges value as 200 entered<br/>
+Upfront fee chargees value as 100 entered<br/>
+Error occurs during product basket configuration is org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 222 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13252_20993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 52aa79d5bb62957e6f11fac44f8bac24<br/>
+CF Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_Product_Basket_Upload()'><b>TC_08_CF_Product_Basket_Upload</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-15788886" onClick='toggleBox("Output-15788886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15788886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15788886">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13252_20993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 52aa79d5bb62957e6f11fac44f8bac24<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_CF_Validate_Order()'><b>TC_08_CF_Validate_Order</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-1170187647" onClick='toggleBox("Output-1170187647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1170187647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1170187647">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir13252_20993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 52aa79d5bb62957e6f11fac44f8bac24<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_NewLeadCreation()'><b>TC_08_NewLeadCreation</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-1193151653" onClick='toggleBox("Output-1193151653", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1193151653" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1193151653">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_Opportunityconversion()'><b>TC_08_Opportunityconversion</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br/>
+<a href="#Output-1998744993" onClick='toggleBox("Output-1998744993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1998744993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1998744993">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_08_Install_CF_with_2Gbits.TC_08_verifylogin()'><b>TC_08_verifylogin</b><br>Test class: CF_Install_Orders.TC_08_Install_CF_with_2Gbits<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-1432206516" onClick='toggleBox("Output-1432206516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1432206516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1432206516">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (52aa79d5bb62957e6f11fac44f8bac24)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (52aa79d5bb62957e6f11fac44f8bac24)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_11_43_17.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_11_43_17.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CF_Install_Orders.TC_08_Install_CF_with_2Gbits@341b80b2</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_AddressValidation()'><b>TC_12_AddressValidation</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-1124719233" onClick='toggleBox("Output-1124719233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1124719233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1124719233">
+Validate Address clicked<br/>
+FindAddress clicked<br/>
+Address selected<br/>
+Adress or sevice availablity issue---Please check the address<br/>
+Address Validated<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_Billing_Account_Assignment()'><b>TC_12_CF_Billing_Account_Assignment</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-1573109056" onClick='toggleBox("Output-1573109056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1573109056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1573109056">
+Billing account creation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (97941d4de98f3fffe40406d795409a3b)] -> xpath: //button[@class='ng-binding ng-isolate-scope icon IconAssignBillingAccount']] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir6596_1650}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97941d4de98f3fffe40406d795409a3b<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_ProductBasketAddition()'><b>TC_12_CF_ProductBasketAddition</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-596909609" onClick='toggleBox("Output-596909609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-596909609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-596909609">
+New product basket button clicked in opportunity page<br/>
+Addproduct button clicked in product configuration page<br/>
+CF product selected<br/>
+Address bar clicked<br/>
+Customer Address search button clicked successfully<br/>
+Customer Address successfully selected<br/>
+Successfully added product to the basket and also confirmed<br/>
+Product successfully added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_ProductBasketConfiguration_with_5Gbits()'><b>TC_12_CF_ProductBasketConfiguration_with_5Gbits</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-1501615988" onClick='toggleBox("Output-1501615988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501615988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501615988">
+Edit basket button clicked<br/>
+Iframe switched<br/>
+Company fiber Product selected<br/>
+Product description as [[ChromeDriver: chrome on XP (97941d4de98f3fffe40406d795409a3b)] -> xpath: .//*[@id='Allgemeine_Informationen:Product_Description_0'][contains(text(), 'Company Fiber')]] value loaded<br/>
+Monthly charges value as 200 entered<br/>
+Upfront fee chargees value as 100 entered<br/>
+upload speed value as 5Gbit/s selected<br/>
+Hardware selection element clicked<br/>
+Hardware to be successfully selected<br/>
+parent window switched<br/>
+CF Product successfully configured<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_Product_Basket_Upload()'><b>TC_12_CF_Product_Basket_Upload</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-1390372378" onClick='toggleBox("Output-1390372378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1390372378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1390372378">
+Product basket upload faile due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (97941d4de98f3fffe40406d795409a3b)] -> xpath: .//*[@id='bodyCell']/div/div/div[3]/div[2]/div[1]/div/header/div[2]/span] (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir6596_1650}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97941d4de98f3fffe40406d795409a3b<br/>
+========Billing Account Assignment was successfully configured============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_CF_Validate_Order()'><b>TC_12_CF_Validate_Order</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-1871545982" onClick='toggleBox("Output-1871545982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1871545982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1871545982">
+order validation failed due to org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='pbHeader']//input[@value='Validate Order']' (tried for 200 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'C4LAP149', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\support\AppData\Local\Temp\scoped_dir6596_1650}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 97941d4de98f3fffe40406d795409a3b<br/>
+========Order validation was successfully performed============<br/>
+</div>
+</td>
+<td></td>
+<td>200</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_NewLeadCreation()'><b>TC_12_NewLeadCreation</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br>Parameters: natrajpencil, Mr., nat, rap, AG, abc@din.com, C VERARBEITENDES GEWERBE, Getrankeherstellung, SME, Baden-Württemberg (BAW), KREUZSTR, 26, FRANKFURT, 60435, HSN<br/>
+<a href="#Output-1524464786" onClick='toggleBox("Output-1524464786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1524464786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1524464786">
+Leads tab clicked<br/>
+New lead button clicked<br/>
+Account name passed<br/>
+Salutation selected<br/>
+Firstname passed<br/>
+last name passed<br/>
+Legal Entity type selected<br/>
+Email value passed<br/>
+phone value passed<br/>
+NationalID value Passed<br/>
+Industry classification asC VERARBEITENDES GEWERBEselected<br/>
+Detailed Industry as Getrankeherstellung selected><br/>
+segment as SME selected<br/>
+constructional Organization as Baden-Württemberg (BAW) selected<br/>
+visit street as KREUZSTR selected<br/>
+visit house number as 26 selected<br/>
+visit city as FRANKFURT selected<br/>
+postal code as 60435   selected><br/>
+visit state/provience as HSN   selected<br/>
+<-----------Lead was successfully created------><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_Opportunityconversion()'><b>TC_12_Opportunityconversion</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br/>
+<a href="#Output-897891526" onClick='toggleBox("Output-897891526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-897891526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-897891526">
+clicked convert button in leads page<br/>
+clicked convert button in convert lead page<br/>
+clicked on opportunity created in accounts page<br/>
+Opportunity converted<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+<tr>
+<td title='CF_Install_Orders.TC_12_Install_CF_with_5Gbits.TC_12_verifylogin()'><b>TC_12_verifylogin</b><br>Test class: CF_Install_Orders.TC_12_Install_CF_with_5Gbits<br>Parameters: thennuannamalai.s_um_jit@prodapt.com, Prodapt4#, null<br/>
+<a href="#Output-735193772" onClick='toggleBox("Output-735193772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-735193772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-735193772">
+entered email address:-thennuannamalai.s_um_jit@prodapt.com and object is [[ChromeDriver: chrome on XP (97941d4de98f3fffe40406d795409a3b)] -> id: username]<br/>
+entered password:-Prodapt4# and object is [[ChromeDriver: chrome on XP (97941d4de98f3fffe40406d795409a3b)] -> id: password]<br/>
+clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.id: Login'<br/>
+<a href='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_11_43_17.png'> <img src='D:\Ibrahim-surat\B2B_OM_Automation_10-10-2017\B2B_OM_Automation\src\main\java\com\test\automation\OM_Automation\screenshot\verifyLoginRecords_12_10_2017_11_43_17.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>CF_Install_Orders.TC_12_Install_CF_with_5Gbits@8e0379d</td></tr>
+</table><p>
+</body>
+</html>

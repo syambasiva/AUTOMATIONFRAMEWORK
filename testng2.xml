@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" name="Suite" parallel="tests">
+ <test name="TC_01_Install_CF_with_50Mbits">
+ <parameter name="TestName" value="TC_01_Install_CF_with_50Mbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_02_Install_CF_with_100Mbits">
+  <parameter name="TestName" value="TC_02_Install_CF_with_100Mbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_03_Install_CF_with_200Mbits">
+  <parameter name="TestName" value="TC_03_Install_CF_with_200Mbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>   
+ <test name="TC_04_Install_CF_with_300Mbits">
+  <parameter name="TestName" value="TC_04_Install_CF_with_300Mbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_05_Install_CF_with_500Mbits">
+  <parameter name="TestName" value="TC_05_Install_CF_with_500Mbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_06_Install_CF_with_750Mbits">
+  <parameter name="TestName" value="TC_06_Install_CF_with_750Mbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_07_Install_CF_with_1Gbits">
+  <parameter name="TestName" value="TC_07_Install_CF_with_1Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_09_Install_CF_with_2_5Gbits">
+  <parameter name="TestName" value="TC_09_Install_CF_with_2_5Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>
+ <test name="TC_10_Install_CF_with_3Gbits">
+  <parameter name="TestName" value="TC_10_Install_CF_with_3Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>   
+ <test name="TC_11_Install_CF_with_4Gbits">
+  <parameter name="TestName" value="TC_11_Install_CF_with_4Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>   
+    <test name="TC_12_Install_CF_with_5Gbits">
+  <parameter name="TestName" value="TC_12_Install_CF_with_5Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>   
+    <test name="TC_13_Install_CF_with_6Gbits">
+  <parameter name="TestName" value="TC_13_Install_CF_with_6Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>  
+    <test name="TC_14_Install_CF_with_7Gbits">
+  <parameter name="TestName" value="TC_14_Install_CF_with_7Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>  
+       <test name="TC_15_Install_CF_with_8Gbits">
+  <parameter name="TestName" value="TC_15_Install_CF_with_8Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>  
+       <test name="TC_16_Install_CF_with_9Gbits">
+  <parameter name="TestName" value="TC_16_Install_CF_with_9Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>  
+          <test name="TC_17_Install_CF_with_10Gbits">
+  <parameter name="TestName" value="TC_17_Install_CF_with_10Gbits"/>
+    <classes>
+        <class name="TestDriver.TestExecutionDriver"/>
+     </classes>
+   </test>  
+         <!-- Test -->
+</suite> <!-- Suite --> 

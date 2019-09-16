@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="tests">
+<test name="Regression_TC_01_CompanyInternet_200_15">
+<parameter name="TestName" value="Regression_TC_01_CompanyInternet_200_15"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_02_CompanyInternet_200_25">
+<parameter name="TestName" value="Regression_TC_02_CompanyInternet_200_25"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_03_CompanyInternet_200_40">
+<parameter name="TestName" value="Regression_TC_03_CompanyInternet_200_40"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_04_CompanyInternet_250_15">
+<parameter name="TestName" value="Regression_TC_04_CompanyInternet_250_15"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_05_CompanyInternet_250_25">
+<parameter name="TestName" value="Regression_TC_05_CompanyInternet_250_25"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_06_CompanyInternet_250_40">
+<parameter name="TestName" value="Regression_TC_06_CompanyInternet_250_40"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_07_CompanyInternet_400_15">
+<parameter name="TestName" value="Regression_TC_07_CompanyInternet_400_15"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_08_CompanyInternet_400_25">
+<parameter name="TestName" value="Regression_TC_08_CompanyInternet_400_25"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_09_CompanyInternet_400_40">
+<parameter name="TestName" value="Regression_TC_09_CompanyInternet_400_40"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_10_OfficeInternet_150">
+<parameter name="TestName" value="Regression_TC_10_OfficeInternet_150"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_11_OfficeInternet_200">
+<parameter name="TestName" value="Regression_TC_11_OfficeInternet_200"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_12_ExistingCustomers_OfficeInternet_400">
+<parameter name="TestName" value="Dependancy_Regression_TC_12_ExistingCustomers_OfficeInternet_400"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_13_ExistingCustomers_OfficeInternet_50">
+<parameter name="TestName" value="Dependancy_Regression_TC_13_ExistingCustomers_OfficeInternet_50"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_14_MACDChange_OI400_To_OfficeInternet_50">
+<parameter name="TestName" value="Dependancy_Regression_TC_14_MACDChange_OI400_To_OfficeInternet_50"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_12_ExistingCustomers_OfficeInternetwithPhone_150">
+<parameter name="TestName" value="Regression_TC_12_ExistingCustomers_OfficeInternetwithPhone_150"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_13_ExistingCustomers_OfficeInternetwithPhone_50">
+<parameter name="TestName" value="Regression_TC_13_ExistingCustomers_OfficeInternetwithPhone_50"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_14_MACDChange_OI400_To_OfficeInternet_50">
+<parameter name="TestName" value="Regression_TC_14_MACDChange_OI400_To_OfficeInternet_50"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_15_CI_NeedsInstallAndNeedsActivationFieldCheck">
+<parameter name="TestName" value="Regression_TC_15_CI_NeedsInstallAndNeedsActivationFieldCheck"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_16_MACDCHANGE_CI_To_CIPowerspot_NeedsInstallAndNeedsActivationFieldCheck">
+<parameter name="TestName" value="Dependancy_Regression_TC_16_MACDCHANGE_CI_To_CIPowerspot_NeedsInstallAndNeedsActivationFieldCheck"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_16_MACDCHANGE_CI_To_CIPowerspot_NeedsInstallAndNeedsActivationFieldCheck">
+<parameter name="TestName" value="Regression_TC_16_MACDCHANGE_CI_To_CIPowerspot_NeedsInstallAndNeedsActivationFieldCheck"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_17_B2BSolutionsButtonValidations">
+<parameter name="TestName" value="Regression_TC_17_B2BSolutionsButtonValidations"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_18_VerificationOfOpeningLinksInNewTab_SuborderPage">
+<parameter name="TestName" value="Regression_TC_18_VerificationOfOpeningLinksInNewTab_SuborderPage"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_19_orderConfirmationEmailValidations">
+<parameter name="TestName" value="Regression_TC_19_orderConfirmationEmailValidations"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_20_OI_CSR_Login_OneOffandRC">
+<parameter name="TestName" value="Regression_TC_20_OI_CSR_Login_OneOffandRC"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_21_DeactivationReqested_Status_Verification">
+<parameter name="TestName" value="Regression_TC_21_DeactivationReqested_Status_Verification"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_22_CF_with_BGP_MACDChange_AddonToIPv4">
+<parameter name="TestName" value="Regression_TC_22_CF_with_BGP_MACDChange_AddonToIPv4"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_23_OI150WithPhone_MACDChange_OI150PhoneWith5StaticIPwithRC">
+<parameter name="TestName" value="Dependancy_Regression_TC_23_OI150WithPhone_MACDChange_OI150PhoneWith5StaticIPwithRC"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_24_OI200WithPhone_MACDMove_OI200PhoneWith5StaticIP">
+<parameter name="TestName" value="Dependancy_Regression_TC_24_OI200WithPhone_MACDMove_OI200PhoneWith5StaticIP"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_25_OIwithSME_MACDMigrate_CI150withPowerspot_withAddonsCiscoToCisco">
+<parameter name="TestName" value="Dependancy_Regression_TC_25_OIwithSME_MACDMigrate_CI150withPowerspot_withAddonsCiscoToCisco"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_26_CI_MACDMove_CIwithPowerSpotAndAddons">
+<parameter name="TestName" value="Regression_TC_26_CI_MACDMove_CIwithPowerSpotAndAddons"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_27_CIwithPowerspot_MACDTerminate">
+<parameter name="TestName" value="Regression_TC_27_CIwithPowerspot_MACDTerminate"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_28_CIwithTwoMWLAN_MACDTerminateOneMWLAN">
+<parameter name="TestName" value="Regression_TC_28_CIwithTwoMWLAN_MACDTerminateOneMWLAN"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_29_CIwithPowerspot_MACDChange_IncreaseSpeedAddStaticIPAddon">
+<parameter name="TestName" value="Regression_TC_29_CIwithPowerspot_MACDChange_IncreaseSpeedAddStaticIPAddon"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_30_CIwithPowerspotwith13staticIP_WelcomePackValidation">
+<parameter name="TestName" value="Regression_TC_30_CIwithPowerspotwith13staticIP_WelcomePackValidation"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_31_CFwithMWLANwithCV_MACDmove">
+<parameter name="TestName" value="Regression_TC_31_CFwithMWLANwithCV_MACDmove"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_32_OI_TCV_ValidationsWithoutDiscount">
+<parameter name="TestName" value="Regression_TC_32_OI_TCV_ValidationsWithoutDiscount"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_51">
+<parameter name="TestName" value="Regression_TC_51"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_52">
+<parameter name="TestName" value="Regression_TC_52"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_53">
+<parameter name="TestName" value="Regression_TC_53"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_55">
+<parameter name="TestName" value="Regression_TC_55"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_57">
+<parameter name="TestName" value="Regression_TC_57"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_58">
+<parameter name="TestName" value="Regression_TC_58"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_60">
+<parameter name="TestName" value="Regression_TC_60"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_61">
+<parameter name="TestName" value="Regression_TC_61"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_62">
+<parameter name="TestName" value="Regression_TC_62"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_64">
+<parameter name="TestName" value="Regression_TC_64"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_65">
+<parameter name="TestName" value="Regression_TC_65"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_66_Company_Voice_with_Company_Internet_Automatic">
+<parameter name="TestName" value="Regression_TC_66_Company_Voice_with_Company_Internet_Automatic"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Dependancy_Regression_TC_67_OfficeInternet_MACDTerminate">
+<parameter name="TestName" value="Dependancy_Regression_TC_67_OfficeInternet_MACDTerminate"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_67_OfficeInternet_MACDTerminate">
+<parameter name="TestName" value="Regression_TC_67_OfficeInternet_MACDTerminate"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_68_CompanyInternet_Automatic">
+<parameter name="TestName" value="Regression_TC_68_CompanyInternet_Automatic"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+<test name="Regression_TC_69__OfficeInternet_SLAvalidation">
+<parameter name="TestName" value="Regression_TC_69__OfficeInternet_SLAvalidation"/>
+<classes>
+<class name="TestDriver.TestExecutionDriver"/>
+</classes>
+</test>
+</suite>

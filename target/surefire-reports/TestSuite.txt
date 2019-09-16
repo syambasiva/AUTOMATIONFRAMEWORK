@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 13,536.569 sec <<< FAILURE! - in TestSuite
+TestCaseExecution(TestDriver.TestExecutionDriver)  Time elapsed: 221.251 sec  <<< FAILURE!
+java.lang.AssertionError:  failed
+	at TestDriver.TestExecutionDriver.TestCaseExecution(TestExecutionDriver.java:139)
+
+TestCaseExecution(TestDriver.TestExecutionDriver)  Time elapsed: 135.51 sec  <<< FAILURE!
+java.lang.AssertionError:  failed
+	at TestDriver.TestExecutionDriver.TestCaseExecution(TestExecutionDriver.java:154)
+
+TestCaseExecution(TestDriver.TestExecutionDriver)  Time elapsed: 285.008 sec  <<< FAILURE!
+java.lang.AssertionError:  failed
+	at TestDriver.TestExecutionDriver.TestCaseExecution(TestExecutionDriver.java:127)
+
+TestCaseExecution(TestDriver.TestExecutionDriver)  Time elapsed: 28.341 sec  <<< FAILURE!
+java.lang.AssertionError:  failed
+	at TestDriver.TestExecutionDriver.TestCaseExecution(TestExecutionDriver.java:113)
+
